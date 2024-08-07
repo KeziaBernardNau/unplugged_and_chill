@@ -143,11 +143,11 @@
      }
       
      img {
-      
+      width: 100%;
      }
       
      figure {
-      
+      margin: 0;
      }
       
      address {
@@ -242,7 +242,9 @@
   }
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
-  
+  header figure {
+    width: 60%;
+}
   
 
   /* Hero Area */
@@ -250,6 +252,11 @@
   .hero-area {
     display: flex;
     justify-content: center;
+    background: url('../img/Freeroad.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 0;
   }
 
   .hero-area h1 {
@@ -298,6 +305,10 @@
   .features {
     display: flex;
     justify-content: center;
+    background: url('../img/unplugged-retreat-features.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .features h2 {
@@ -511,6 +522,10 @@
     header figure {
       width: 30%;
     }
+
+    header figure {
+      width: 30%;
+  }
   
     header nav {
       width: 20%;
@@ -696,6 +711,8 @@
     }
   
     /* Hero */
+
+  
     .hero-area h1 {
       width: 80%;
       font-size: 3.75em;
@@ -716,6 +733,7 @@
     .features h2 {
       width: 90%;
     }
+
   
     .features article {
       flex-basis: 33%;
