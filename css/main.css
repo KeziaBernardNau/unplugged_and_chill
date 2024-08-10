@@ -146,11 +146,8 @@
       width: 100%;
      }
       
-     .features i {
-      font-size: 3.75em;
-        margin-bottom: 40px;
-    }
-    
+  
+
      figure {
       margin: 0;
      }
@@ -314,6 +311,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
   
   .features h2 {
@@ -633,6 +635,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-direction: row;
     }
 
     footer p {
@@ -646,6 +649,11 @@
     footer h4 {
       font-size: 1.5em;
       margin-bottom: 40px;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
     }
   
   
