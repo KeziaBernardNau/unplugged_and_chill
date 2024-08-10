@@ -146,6 +146,11 @@
       width: 100%;
      }
       
+     .features i {
+      font-size: 3.75em;
+        margin-bottom: 40px;
+    }
+    
      figure {
       margin: 0;
      }
@@ -368,7 +373,7 @@
       top: 0; 
       left: 0; 
   }
-  
+
   .mission {
     display: flex;
     justify-content: center;
